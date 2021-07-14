@@ -17,7 +17,7 @@
                                                  dc:creator "Alba Fernández Izquierdo" ,
                                                             "Raúl García Castro" ,
                                                             "Socorro Bernardos Galindo" ;
-                                                 dc:description "Ontology code created by Chowlk" ;
+                                                 dc:description "The COGITO Construction Process Ontology aims at modelling the construction process in the COGITO ontology" ;
                                                  dc:title "The COGITO Construction Process Ontology" ;
                                                  owl:versionInfo "0.0.1" .
 

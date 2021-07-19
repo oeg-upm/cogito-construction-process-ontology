@@ -1,0 +1,11 @@
+Identifier (domain+id);Component;"Competency Question /
+ Natural language sentence (fact)";Answer;Status (Proposed, Accepted, Rejected, Pending, Deprecated)
+process-1;PMS;A task has a  KPI;;
+process-2;PMS;A task can request a rework on new activities;;
+process-3;PMS;A task is related to a building element;;
+process-4;WODM;A task can involve workers;;
+process-5;WODM;A task involves a work order;;
+process-6;WODM;A task includes progress information;;
+process-7;WODM;A task can have a conection with other task;;
+process-8;WODM;A task can have a date of creation;;
+process-9;WODM;A task can have an order in the workflow;;

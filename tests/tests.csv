@@ -1,13 +1,11 @@
 Id,Requirement,Component,Test
 PROC-TEST-1,PROC-1,WODM,Task hasQualityInformation QualityInformation
-PROC-TEST-2,PROC-2,WODM,Task relatedTo Element
+PROC-TEST-2,PROC-2,WODM,Task relatesToElement Element
 PROC-TEST-3,PROC-3,WODM,Process hasCost Cost
-PROC-TEST-4,PROC-3,WODM,Cost isMeasuredIn Currency
+PROC-TEST-4,PROC-3,WODM,Cost isMeasuredIn UnitOfCurrency
 PROC-TEST-5,PROC-4,WODM,Task belongsTo Process
 PROC-TEST-6,PROC-5,WODM,Task hasProgress Literal
 PROC-TEST-7,PROC-6,WODM,Task hasCreationDate DateTime
-PROC-TEST-8,PROC-7,WODM,Task hasOrder Integer
-PROC-TEST-9,PROC-8,WODM,Task isRelatedTo Element
-PROC-TEST-10,PROC-9,WODM,Task requiresResource Resource
-PROC-TEST-11,PROC-10,PMS,Resource isAllocatedTo Task
-
+PROC-TEST-8,PROC-7,WODM,Task hasPriority Integer
+PROC-TEST-9,PROC-8,WODM,Task involvesResource Resource
+PROC-TEST-10,PROC-9,PMS,Resource isAssignedToTask Task

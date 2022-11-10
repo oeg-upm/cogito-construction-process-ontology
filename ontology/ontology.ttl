@@ -232,7 +232,7 @@ resource:hasAssignedResource rdf:type owl:ObjectProperty ;
 ###  http://purl.org/dc/terms/created
 dcterms:created rdf:type owl:DatatypeProperty ;
                 rdfs:isDefinedBy dcterms: ;
-                rdfs:label <created> .
+                rdfs:label <https://cogito.iot.linkeddata.es/def/created> .
 
 
 ###  http://purl.org/dc/terms/creator
@@ -307,7 +307,7 @@ process:priority rdf:type owl:DatatypeProperty ;
 
 ###  https://cogito.iot.linkeddata.es/def/process#progress
 process:progress rdf:type owl:DatatypeProperty ;
-                 rdfs:range xsd:string ;
+                 rdfs:range xsd:float ;
                  rdfs:comment "A property indicating the progress of an entity (especially a process:Task)" ;
                  rdfs:label "progress" .
 

@@ -9,3 +9,8 @@ PROC-7;A task can add, remove, control or repair elements
 PROC-8;A task includes result, progress and priority information
 PROC-9;A task can have a date of creation, of planned and actual beginnings, and of planned and actual ends
 PROC-10;A task can have sub-tasks 
+PROC-11;A task  can have optimisation-related data: duration
+PROC-12;A task  can have optimisation-related data: early start and end dates
+PROC-13;A task  can have optimisation-related data: late start and end dates
+PROC-14;A task  can have optimisation-related data: total float/slack
+PROC-15;A task  can have optimisation-related data: is critical or not

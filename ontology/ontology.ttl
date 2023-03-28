@@ -392,7 +392,7 @@ process:result rdf:type owl:DatatypeProperty ;
 
 ###  https://cogito.iot.linkeddata.es/def/process#status
 process:status rdf:type owl:DatatypeProperty ;
-               rdfs:comment "A property indicating the status of an entity (especially a process:WorkOrder)" ;
+               rdfs:comment "A property indicating the status of an entity (especially a process:WorkOrder and a process:Task)" ;
                rdfs:label "status" .
 
 
@@ -413,6 +413,11 @@ process:totalFloat rdf:type owl:DatatypeProperty ;
                    rdfs:range xsd:nonNegativeInteger ;
                    rdfs:comment "A property indicating the number of days an entity (especially a task) can be delayed" ;
                    rdfs:label "total float" .
+
+
+###  https://cogito.iot.linkeddata.es/def/process#validationMessage
+process:validationMessage rdf:type owl:DatatypeProperty ;
+                          rdfs:comment "A property indicating the validation message of an entity (especially a process:Task)" .
 
 
 ###  https://cogito.iot.linkeddata.es/def/process#workQuantity
